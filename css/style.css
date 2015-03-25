@@ -72,9 +72,9 @@ body{ font-family: 'Roboto', sans-serif; }
     height:70px;
 }
 
-.top-navigation.links > .active{
+.top-navigation .links .active a{
     color: #4c5058;
-    font-weight: 600;}
+    font-weight: 500;}
 
 .top-navigation .links{
     float: right;
@@ -182,12 +182,12 @@ height:25rem;}
 
 .devices, .coffee, .refill{
 margin-left: 3em;
-font-size: 1.5em;
 margin-bottom: 1.5em;
 }
 
-.container >h4{
-font-size: 1.3em;}
+.container h4{font-size: 1.5em;
+padding-top:1.7em;}
+
 
 /*end of icons section*/
 
